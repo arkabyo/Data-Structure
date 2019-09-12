@@ -35,7 +35,7 @@ void printcust(customer data[],int numb){
     cout << setw(15) << "Units" << endl;
     cout << setw(75) << "1      2      3" << endl;
     cout << "     --------------------------------------------------------------------------------------------------------------\n";
-    
+    //Loop to print the data till the last value
     for(int i=0; i<numb; i++){
         cout << setw(15) << data[i].first;
         cout << setw(15) << data[i].last;
@@ -60,7 +60,7 @@ void saveFile(customer data[],int numb){
     outFile << setw(15) << "Units" << endl;
     outFile << setw(75) << "1      2      3" << endl;
     outFile << "     --------------------------------------------------------------------------------------------------------------\n";
-    
+    //Loop to print the data till the last value
     for(int i=0; i<numb; i++){
         //Print Array Data
         outFile << setw(15) << data[i].first;
