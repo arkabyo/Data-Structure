@@ -1,4 +1,4 @@
-#C++ Assignment 1
+# C++ Assignment 1
 1. Define a Customer class which will have Customer name, state, sales history, unit purchased and total sales
 2. Create an array of 10 customers
 3. Read the information from the given data file and store it in the customer array
